@@ -24,9 +24,9 @@ import cn.jpush.api.push.model.notification.Notification;
  *
  */
 public class App {
-	private static final String masterSecret = "b857c8c5d033ff534828b795";
+	private static final String masterSecret = "xxx";
 
-	private static final String appKey = "1008fb255a7f1b8bd339a745";
+	private static final String appKey = "xxx";
 
 	static PushApi api = JPushApi.init(masterSecret, appKey);
 
